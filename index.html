@@ -1,0 +1,58 @@
+<!-- emmet wrap with abbreviation -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/page.css">
+  <link rel="shortcut icon" href="assets/images/rocket.svg" type="image/x-icon">
+  <title>Countdown</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section class="cSection-text-form">
+      <h1>READY TO LAUNCH IN...</h1>
+      <div class="cTimer">
+        <div>
+          <span class="time">Dias</span>
+          <span class="days">00</span>
+        </div>
+        <span class="points2">:</span>
+        <div>
+          <span class="time">Horas</span>
+          <span class="hours">00</span>
+        </div>
+        <span class="points2">:</span>
+        <div>
+          <span class="time">Minutos</span>
+          <span class="minutes">00</span>
+        </div>
+        <span class="points2">:</span>
+        <div>
+          <span class="time">Segundos</span>
+          <span class="seconds">00</span>
+        </div>
+      </div>
+      <p>Inscreva-se para saber mais sobre o lançamento</p>
+      <form hidden method="post" name="contact" class="cPrimaryForm"> <!-- action="" -->
+        <label for="cName">
+          <p>Nome</p>
+          <input type="text" name="nome" id="cName">
+        </label>
+        <label for="cName">
+          <p>Email</p>
+          <input type="email" name="email" id="cEmail">
+        </label>
+        <br>
+        <input class="cBtn-submit" type="submit" value="Enviar">
+      </form>
+      <button class="cBtn-release">Inscreva-se</button> <!-- form sem hidden -->
+    </section>
+    <section><img src="assets/images/rocket.svg" alt="rocket"></section>
+  </main>
+  <footer></footer>
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>
