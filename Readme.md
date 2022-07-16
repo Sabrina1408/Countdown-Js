@@ -1,7 +1,6 @@
 ![image](https://user-images.githubusercontent.com/88604193/179359983-1ee2c3b7-9ed6-4d5a-b2d4-ef96e1741090.png)
 <h1>Countdown</h1>
 <p>Site com timer diminuindo.</p>
-<p>Telas no total: 13</p>
 <h2>Links</h2>
 <ul>
   <li>
