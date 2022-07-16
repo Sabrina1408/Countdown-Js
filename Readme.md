@@ -4,7 +4,7 @@
 <h2>Links</h2>
 <ul>
   <li>
-    <a href="https://www.figma.com/file/nUl832qQihqe5KBWQHTh28/Eventus?node-id=117%3A277">Link do site</a>
+    <a href="https://sabrina1408.github.io/Countdown-Js/">Link do site</a>
   </li>
   <li>
     <a href="https://sabrinaalves.tk" target="_blank">Meu portifólio</a>
