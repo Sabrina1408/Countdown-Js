@@ -3,15 +3,16 @@
 
 body {
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 25vh 50vh 25vh;
 }
 header {
-  height: 130px;
+
   background-image: url("../images/top-image.svg");
   /* background-image: url("../images/bottom-image.svg"); */
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center top; /* ? */
+  grid-row: 1/1;
 }
 main {
   display: flex;
@@ -19,6 +20,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 5%; /* mudar pra mobile */
+  grid-row: 2/2;
 }
 .cSection-text-form {
   display: flex;
@@ -54,6 +56,10 @@ h1 {
   padding: 0px 15px 5px 15px;
 }
 
+.cSection-text-form input {
+  border-radius: 10px;
+  color: var(--purple);
+}
 .cSection-text-form .cBtn-release, .cSection-text-form .cPrimaryForm .cBtn-submit {
   background-color: var(--purple);
   width: 160px;
@@ -64,16 +70,28 @@ h1 {
   font-size: 16px;
   font-weight: 400;
 }
-.cBtn-submit {
+.cSection-text-form .cBtn-submit {
   margin-top: 20px;
 }
 .cSection-text-form .cBtn-release:hover, .cSection-text-form .cPrimaryForm .cBtn-submit:hover {
   cursor: pointer;
 }
 
+.rocket {
+  width: 100%;
+ /*  padding: 15px 15px; */
+}
+
 footer {
-  height: 130px;
   background-image: url("../images/bottom-image.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position:  bottom;
+  grid-row: 3/3;
+  /* height: 130px; */
+}
+
+@media (max-width: 1195px) {
+  .rocket {
+    padding: 15px 15px;
+  }
 }
