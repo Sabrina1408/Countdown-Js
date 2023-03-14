@@ -10,7 +10,7 @@
     <a href="https://sabrinaalvesbrito.com.br" target="_blank">Meu portifólio</a>
   </li>
 </ul>
-<h2>👾 Ideia de app</h2>
+<h2>👾 Ideia de site</h2>
 <p>Feito para o desafio "Countdown" da Rocketseat.</p>
 <h2>👽 Status - Desenvolvendo</h2>
 <h2>🧐 Aprendizado</h2>
@@ -20,8 +20,8 @@
 <h2>👀 Problemas/Ideias/Fazer</h2>
 <h3>Problemas</h3>
 <ul>
-  <li>🕐 Css .</li>
-  <li>🕐 Timer .</li>
+  <li>🕐 Css.</li>
+  <li>🕐 Timer.</li>
 </ul>
 <h3>Ideias/Fazer</h3>
 <ul>
